@@ -1,5 +1,16 @@
 # SC2 Download Speed Test
 
+## Summary
+
+
+| Overall Test # | download speed | Tests Series | # in Series | Note |
+| --------- | ----------- | ------- | --------- | ---------|
+| 1 | 913kbps | 1 | 1 | all series 1 use windows computer, 1.2GB file |
+| 2 | camera shut down | 1 | 2 | thermometer icon appeared on OLED |
+| 3 | 869kbps | 2 | 1 | same equipment and file as series 1 |
+| 4 |         | 2 | 2 | delay 10 seconds between automated tests |
+
+
 ## Background on reported problem
 
 RICOH partner reporting inconsistent results of downloading
@@ -56,12 +67,6 @@ large video file
 ```
 
 ## Results
-
-| Overall Test # | download speed | Tests Series | # in Series | Note |
-| 1 | 913kbps | 1 | 1 | all series 1 use windows computer, 1.2GB file |
-| 2 | camera shut down | 1 | 2 | thermometer icon appeared on OLED |
-| 3 | 869kbps | 2 | 1 | same equipment and file as series 1 |
-| 4 |         | 2 | 2 | delay 10 seconds between automated tests |
 
 
 ## Series #1, test #1
