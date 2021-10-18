@@ -57,7 +57,14 @@ large video file
 
 ## Results
 
-## test #1
+| Overall Test # | download speed | Tests Series | # in Series | Note |
+| 1 | 913kbps | 1 | 1 | all series 1 use windows computer, 1.2GB file |
+| 2 | camera shut down | 1 | 2 | thermometer icon appeared on OLED |
+| 3 | 869kbps | 2 | 1 | same equipment and file as series 1 |
+| 4 |         | 2 | 2 | delay 10 seconds between automated tests |
+
+
+## Series #1, test #1
 
 * Average download is 913kbps
 
@@ -68,10 +75,30 @@ $ bash sc2_download.sh
 100 1170M  100 1170M    0     0   869k      0  0:22:57  0:22:57 --:--:--  758k
 ```
 
-## test #2
+## Series #1, test #2
 
 * SC2 overheated
 * thermometer icon displayed on OLED
 * camera shutdown
 
 ![thermometer](docs/images/sc2_overheat_oct_10.png)
+
+---
+
+## Series 2: Restart Another Series of 5 Tests
+
+### Series 2, test 1
+
+941kbps
+
+```
+Start test 1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1170M  100 1170M    0     0   941k      0  0:21:12  0:21:12 --:--:--  875k
+completed test 1
+```
+
+### Sereis 2, test 2
+
+waited 10 seconds before starting test 2
