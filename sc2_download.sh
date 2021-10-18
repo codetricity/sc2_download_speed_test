@@ -8,4 +8,5 @@ do
     curl $URL --output R0012311.MP4
     echo "completed test $i"
     echo "-------------"
+    sleep 10
 done
