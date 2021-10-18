@@ -10,7 +10,7 @@ large video file
 * there is no barrier between the SC2 and the Android device (no case. no wall)
 * out of multiple tests in 1 hour, SC2 download will fail in a few hours
 
-## Oppkey test
+## Oppkey test configuration Craig - 1
 
 * uses Windows 10 computer for ease of testing
 * [Intel Wireless-N 7260](https://ark.intel.com/content/www/us/en/ark/products/75174/intel-wirelessn-7260.html) USB adapter
