@@ -8,7 +8,9 @@
 | 1 | 913kbps | 1 | 1 | all series 1 use windows computer, 1.2GB file |
 | 2 | camera shut down | 1 | 2 | thermometer icon appeared on OLED |
 | 3 | 869kbps | 2 | 1 | same equipment and file as series 1 |
-| 4 |         | 2 | 2 | delay 10 seconds between automated tests |
+| 4 | 982kbps | 2 | 2 | delay 10 seconds between automated tests |
+| 5 | 1032kbps | 2 | 3 | |
+| 6 | 947kbps | 2 | 4 | |
 
 
 ## Background on reported problem
@@ -104,6 +106,28 @@ Start test 1
 completed test 1
 ```
 
-### Sereis 2, test 2
+### Sereis 2, test 2 - 4
 
-waited 10 seconds before starting test 2
+waited 10 seconds before starting each test
+
+```
+Start test 2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  2 1170M    2 26.0M    0     0  1027k      0  0:19:26  0:00:25  0:19:01  994k
+100 1170M  100 1170M    0     0   982k      0  0:20:20  0:20:20 --:--:-- 1319k
+completed test 2
+-------------
+Start test 3
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1170M  100 1170M    0     0  1032k      0  0:19:21  0:19:21 --:--:-- 1189k
+completed test 3
+-------------
+Start test 4
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1170M  100 1170M    0     0   947k      0  0:21:05  0:21:05 --:--:-- 1327k
+completed test 4
+-------------
+```
