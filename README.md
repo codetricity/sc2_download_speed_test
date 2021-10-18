@@ -12,7 +12,7 @@
 | 5 | 1032kbps | 2 | 3 | |
 | 6 | 947kbps | 2 | 4 | |
 | 7 | 799kbps | 2 | 5 | |
-|   |         | 3 | 1 | using 194MB file |
+| 8 |         | 3 | 1 | using 194MB file |
 
 
 ## Background on reported problem
