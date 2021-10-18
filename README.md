@@ -11,6 +11,8 @@
 | 4 | 982kbps | 2 | 2 | delay 10 seconds between automated tests |
 | 5 | 1032kbps | 2 | 3 | |
 | 6 | 947kbps | 2 | 4 | |
+| 7 | 799kbps | 2 | 5 | |
+|   |         | 3 | 1 | using 194MB file |
 
 
 ## Background on reported problem
@@ -94,7 +96,7 @@ $ bash sc2_download.sh
 
 ## Series 2: Restart Another Series of 5 Tests
 
-### Series 2, test 1
+### Series 2, tests 1 - 5
 
 941kbps
 
@@ -106,9 +108,7 @@ Start test 1
 completed test 1
 ```
 
-### Sereis 2, test 2 - 4
-
-waited 10 seconds before starting each test
+waited 10 seconds before starting each additional test
 
 ```
 Start test 2
@@ -130,4 +130,16 @@ Start test 4
 100 1170M  100 1170M    0     0   947k      0  0:21:05  0:21:05 --:--:-- 1327k
 completed test 4
 -------------
+Start test 5
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1170M  100 1170M    0     0   788k      0  0:25:19  0:25:19 --:--:-- 1087k
+completed test 5
+-------------
 ```
+
+### Test Series 3
+
+194MB file.  
+Same equipment as test series 1 and 2.
+
