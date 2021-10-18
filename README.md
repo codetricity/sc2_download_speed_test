@@ -67,3 +67,11 @@ $ bash sc2_download.sh
                                  Dload  Upload   Total   Spent    Left  Speed
 100 1170M  100 1170M    0     0   869k      0  0:22:57  0:22:57 --:--:--  758k
 ```
+
+## test #2
+
+* SC2 overheated
+* thermometer icon displayed on OLED
+* camera shutdown
+
+![thermometer](docs/images/sc2_overheat_oct_10.png)
