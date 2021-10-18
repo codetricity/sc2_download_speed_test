@@ -12,7 +12,10 @@
 | 5 | 1032kbps | 2 | 3 | |
 | 6 | 947kbps | 2 | 4 | |
 | 7 | 799kbps | 2 | 5 | |
-| 8 |         | 3 | 1 | using 194MB file |
+| 8 | 311kbps | 3 | 1 | using 194MB file |
+| 9 | 257kbps | 3 | 2 | |
+| 10 | 273kbps | 3 | 3 | |
+| 11 |         | 3 | 4 | |
 
 
 ## Background on reported problem
@@ -143,3 +146,23 @@ completed test 5
 194MB file.  
 Same equipment as test series 1 and 2.
 
+```
+Start test 1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  194M  100  194M    0     0   311k      0  0:10:38  0:10:38 --:--:--  257k
+completed test 1
+ -------------
+ Start test 2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  194M  100  194M    0     0   257k      0  0:12:52  0:12:52 --:--:--  698k
+completed test 2
+ -------------
+Start test 3
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  194M  100  194M    0     0   273k      0  0:12:07  0:12:07 --:--:--  256k
+completed test 3
+ -------------
+ ```
