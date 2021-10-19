@@ -179,3 +179,29 @@ Start test 5
 completed test 5
  -------------
  ```
+## Oppkey test configuration Jesse - 1
+
+### Testing Environment 
+* RICOH THETA mobile app
+* for Android ver 2.1.3 
+* on a Pixel 4
+* Android version 11
+
+### Created 208MB video file by recording for 30 seconds
+### Recording download using electronic stopwatch and webcam
+* Pixel 4 is close to SC2, no barrier
+* Total download takes 6:10 mins
+* Download is not smooth progression, "sticks" at 3 places, last 50% downloads very fast (several seconds)
+* Sticks at 6%, 22%, 48%
+* 19% at 1:50
+* 21% at 2:15
+* 22% at 2:30
+* 22% at 3:00
+* 27% at 3:30
+* 41% at 4:00
+* 47% at 4:30
+* 48% at 5:00
+* 48% at 5:30
+* at 6mins it speeds up
+* Finish at 6:10 mins
+
